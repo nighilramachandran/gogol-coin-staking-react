@@ -1,0 +1,29 @@
+.closed-content {
+  display: grid;
+  gap: 30px;
+  // text-align: center;
+  // max-height: 700px;
+  // overflow-y: scroll;
+  margin: 50px auto;
+
+  h2 {
+    text-align: center;
+  }
+  li {
+    span:hover {
+      color: #fff !important;
+    }
+  }
+}
+ul {
+  text-align: start;
+  font-size: 20px;
+  li {
+    margin: 10px 0;
+    &::marker {
+      color: #ff6600;
+      font-size: 25px;
+      line-height: 0.6;
+    }
+  }
+}

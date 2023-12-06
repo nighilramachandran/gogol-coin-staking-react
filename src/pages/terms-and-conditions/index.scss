@@ -1,0 +1,50 @@
+.terms-and-conditions {
+  min-height: 88vh;
+
+  .terms-and-conditions-content {
+    display: grid;
+    gap: 30px;
+    // text-align: center;
+    h2 {
+      text-align: center;
+    }
+    li {
+      span:hover {
+        color: #fff !important;
+      }
+    }
+  }
+  ol {
+    li {
+      margin: 20px 40px 0px 30px;
+      // margin-left: 30px;
+      font-size: 20px;
+      &::marker {
+        color: white;
+        font-size: 15px;
+        line-height: 0.6;
+      }
+    }
+  }
+  ul {
+    text-align: start;
+    font-size: 20px;
+    li {
+      // margin: 20px 0;
+      &::marker {
+        color: #ff6600;
+        font-size: 25px;
+        line-height: 0.6;
+      }
+    }
+  }
+  .important {
+    li {
+      &::marker {
+        color: #fff;
+        font-size: 25px;
+        line-height: 0.6;
+      }
+    }
+  }
+}

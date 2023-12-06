@@ -1,0 +1,11 @@
+export const primarycolor = "#FF6600"
+export const secondarycolor = "#134374"
+export const text1color = "#8D8F92"
+export const text2color = "#fff"
+export const dangercolor = "#FF0000"
+export const greencolor = "#33C500"
+// export const whitefont = "#fff"
+// export const lightfont = "#9CA1C2"
+// export const sidebarBg = "#1C1E2D"
+// export const sidebarWidth = 256
+// export const headerHeight = 80

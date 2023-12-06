@@ -1,0 +1,16 @@
+@import "../index.scss";
+
+.toggle-transaction {
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+  color: map-get($theme-colors, "gray");
+}
+.active {
+  color: map-get($theme-colors, "primary");
+}
+.table.withdraw-table {
+  tbody > tr > td {
+    padding: 20px;
+  }
+}

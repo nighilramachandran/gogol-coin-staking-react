@@ -1,0 +1,67 @@
+.line {
+  border-bottom: 2px solid #ffffff;
+  height: 1px;
+  min-width: 70px;
+  max-width: 236px;
+}
+.btn-Dashboard-Reward {
+  width: 385px;
+  height: 62.3px;
+  background: #ff6600 !important;
+  border-radius: 50px !important;
+  font-weight: 500 !important;
+}
+
+.landing-content {
+  width: inherit;
+  // min-height: 70vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: right;
+}
+.landing-text {
+  display: grid;
+  row-gap: 5px;
+}
+
+.amount-input {
+  background-color: black;
+  border: unset;
+  border-bottom: 1px solid #ff6600;
+  color: white;
+  max-width: 100%;
+  width: 33%;
+  text-align: center;
+  box-shadow: unset;
+  font-weight: 400;
+  font-size: 17px;
+}
+.amount-input:focus-visible {
+  outline: unset;
+}
+
+.desc-div {
+  margin-top: 1.2rem;
+}
+
+.footer-estimate-div {
+  flex-direction: column;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.landing-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background: transparent;
+  // background-color: #171921;
+  min-height: 20vh;
+  padding: 2% 6%;
+}

@@ -1,0 +1,33 @@
+@import "../../../index.scss";
+
+.add-staking-container {
+  width: 160px;
+  // max-width: 120px;
+  height: 40px;
+  border: 1px solid #cccccc;
+  border-radius: 30px;
+  @media (max-width: 400px) {
+    font-size: 10px;
+    width: 120px;
+  }
+  cursor: pointer;
+  .circle-container {
+    width: 40px;
+    height: 40px;
+    margin: -1px -1px;
+    border: 1px solid #cccccc;
+    border-radius: 30px;
+    padding: 4px;
+    .circle {
+      height: 100%;
+      width: 100%;
+      border-radius: 30px;
+      background-color: map-get($theme-colors, "primary");
+      padding: 2px;
+      @media (max-width: 400px) {
+        padding: 7px;
+      }
+      text-align: center;
+    }
+  }
+}

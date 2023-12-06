@@ -1,0 +1,30 @@
+.stake-detail {
+  /* Mobile/Tablet styles (xs, sm) */
+  justify-content: center;
+  width: auto;
+}
+
+.stake-detail-container {
+  align-items: center;
+}
+
+// @media (min-width: 991px) {
+//   .stake-detial {
+//     /* Tablet/Desktop styles (md, lg) */
+//     justify-content: center;
+//   }
+// }
+
+.details-coin {
+  /* Mobile/Tablet styles (xs, sm) */
+  justify-content: center;
+}
+@media (min-width: 991px) {
+  .details-coin {
+    /* Tablet/Desktop styles (md, lg) */
+    justify-content: flex-end;
+  }
+  .stake-detail-container {
+    align-items: flex-start;
+  }
+}
